@@ -6,11 +6,7 @@ function App(props) {
 
   return (
     <>
-      <Switch>
-        <Route className={classes.root} exact path="/" width={1}>
-          <Header />
-        </Route>
-      </Switch>
+      <Header />
     </>
   )
 }
